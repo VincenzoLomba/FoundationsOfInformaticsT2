@@ -8,3 +8,4 @@ which is a teaching of [Computer Engeneering's degree](https://corsi.unibo.it/1c
 Here they are two useful guides about Git:<br/>
 - [Git, the simple guide](https://rogerdudler.github.io/git-guide/)
 - [Adding an existring project to Git](https://gist.github.com/alexpchin/102854243cd066f8b88e)
+- [How to use .gitignore](https://git-scm.com/docs/gitignore)
