@@ -5,8 +5,10 @@
  */
 public class MainFrazione
 {
+
 	
-	public static void main(String[] args) 	{	
+	public static void main(String[] args) {
+		
 		
 		//test costruzione frazione
 		//test funzionamento metodi accessor e toString
@@ -59,6 +61,43 @@ public class MainFrazione
 		
 		frazioneRid = frazione6.minTerm();
 		System.out.println("La frazione " + frazione6 + " ridotta ai minimi termini diventa " + frazioneRid); // -2/3
-			
+		
+		//test funzionamento somma fra due frazioni
+		Frazione sum = frazione6.sum(frazione7);
+		System.out.println("-2/3 + 5/7 = " + sum); // 1/21
+		
+		//test funzionamento somma con mcm
+		Frazione sum2 = frazione2.sumWithMcm(frazione3);
+		System.out.println("1/4 + 1/8 = " + sum2); //3/8
+		
+		sum2 = new Frazione(-1, 4).sumWithMcm(frazione3);
+		System.out.println("-1/4 + 2/16 = " + sum2); //-1/8
+		
+		//test uguaglianza somma fra due frazioni con mcm e senza
+		Frazione sumWithMcm = frazione6.sumWithMcm(frazione7);
+		System.out.println("La somma ottenuta con mcm e' " + sumWithMcm+ " senza e' "+ sum);
+		
+		//test funzionamento somma fra due frazioni
+		Frazione sub = frazione2.sub(frazione3);
+		System.out.println("1/4 - 1/8 =  " + sub);
+		
+		//test funzionamento prodotto fra due frazioni
+		Frazione mul = frazione4.mul(frazione5);
+		System.out.println("4 * -1/8 = " + mul); // -1/2
+		
+		//test funzionamento divisione fra due frazioni
+		Frazione div = frazione6.div(frazione2);
+		System.out.println("-2/3 : 1/4 = " + div); // -8/3
+		
+		//test funzionamento compareTo
+	    System.out.println("il confronto tra 3/12 e 1/4 è: "+ frazione1.compareTo(frazione2));
+	    
+	  //test funzionamento getDouble
+	    System.out.println("valore reale associato a : "+ frazione1 + " è "+frazione1.getDouble());
+	    
+
+	
+	    
+		
 	}
 }
