@@ -33,12 +33,7 @@ public class Frazione {
 	public int compareTo (Frazione f) {
 		
 		if (this.equals(f)) return 0;
-		if (num == 0) return f.getNum() > 0 ? -1 : 1;
-		if (f.getNum() == 0) return num < 0 ? -1 : 1;
-		if (num*f.getNum() < 0) return num < 0 ? -1 : 1;
-		int result =  num*f.getDen() < den*f.getNum() ? -1 : 1;
-		if (num < 0 && f.getNum() < 0) return -result;
-		return result;
+		return num*f.getDen() < den*f.getNum() ? -1 : 1;
 	}
 	
 	public Frazione div (Frazione f) {
