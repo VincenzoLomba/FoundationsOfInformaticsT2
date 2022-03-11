@@ -40,7 +40,7 @@ public class Frazione {
 		return new Frazione(num*f.getDen(), den*f.getNum()).minTerm();
 	}
 	
-	public double getDouble () { return (double) num / den; }
+	public double getDouble () { return ((double) num) / den; }
 	
 	public Frazione mul (Frazione f) {
 		return new Frazione(num*f.getNum(), den*f.getDen()).minTerm();
