@@ -26,7 +26,7 @@ public class Frazione {
 	public Frazione minTerm () {
 		
 		if (num == 0) return new Frazione(0, 1);
-		int d = MyMath.mcd(num, den);
+		int d = MyMath.mcd(Math.abs(num), den);
 		return new Frazione(num / d, den / d);
 	}
 	
