@@ -3,7 +3,7 @@
  * @author Fondamenti di Informatica T-2
  * @version March 2022
  */
-public class MainFraction
+public class FractionMain
 {
 
 	
