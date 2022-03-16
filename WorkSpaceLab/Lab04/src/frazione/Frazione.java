@@ -1,5 +1,7 @@
 package frazione;
 
+import java.util.Arrays;
+
 import util.MyMath;
 
 public class Frazione {
@@ -67,4 +69,69 @@ public class Frazione {
 		return new Frazione(mcm / den * num + mcm / f.getDen() * f.getNum(), mcm).minTerm();
 	}
 	
+	/* Static methods: */
+	
+	public static Frazione sum(Frazione[] tutte) {
+		
+		/*
+		if (tutte.length == 0) return new Frazione(0,1);
+		Frazione result = tutte[0];
+		for (int j = 1 ; j < tutte.length ; ++j) {
+			result = result.sum(tutte[j]);
+		}
+		return result;
+		*/
+		return Arrays.stream(tutte).reduce(new Frazione(0,1), Frazione::sum);
+	}
+	
+	public static Frazione mul(Frazione[] tutte) {
+		
+		/*
+		if (tutte.length == 0) return new Frazione(1,1);
+		Frazione result = tutte[0];
+		for (int j = 1 ; j < tutte.length ; ++j) {
+			result = result.mul(tutte[j]);
+		}
+		return result;
+		*/
+		return Arrays.stream(tutte).reduce(new Frazione(1,1), Frazione::mul);
+	}
+	
+	public static String convertToString(Frazione[] tutte) {
+		
+		if (size(tutte) == 0) return "[]";
+		StringBuilder b = new StringBuilder(tutte[0].toString());
+		for (int j = 1 ; j < size(tutte) ; ++j) b.append(", " + tutte[j].toString());
+		return "[" + b + "]";
+	}
+	
+	public static int size (Frazione[] tutte) {
+		
+		// Convention: first null element determinates the logic dimension.
+		if (tutte.length == 0) return 0;
+		for (int j = 0 ; j < tutte.length ; ++j) {
+			if (tutte[j] == null) return j;
+		}
+		return tutte.length;
+	}
+	
+	public static Frazione[] sum(Frazione[] setA, Frazione[] setB) {
+		
+		if (size(setA) != size(setB)) return null;
+		Frazione[] result = new Frazione[size(setA)];
+		for (int j = 0 ; j < result.length ; ++j) {
+			result[j] = setA[j].sum(setB[j]);
+		}
+		return result;
+	}
+	
+	public static Frazione[] mul(Frazione[] setA, Frazione[] setB) {
+		
+		if (size(setA) != size(setB)) return null;
+		Frazione[] result = new Frazione[size(setA)];
+		for (int j = 0 ; j < result.length ; ++j) {
+			result[j] = setA[j].mul(setB[j]);
+		}
+		return result;
+	}
 }
