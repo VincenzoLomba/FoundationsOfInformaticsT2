@@ -1,19 +1,15 @@
+package fraction;
 /**
  * Classe di test
  * @author Fondamenti di Informatica T-2
  * @version March 2022
  */
-public class FractionTest
-{
+public class FractionTest {
+	
 	public static void main(String[] args) {
-		
-		//test MyMath mcd
-				assert(MyMath.mcd(10, 5) == 5);
-				assert(MyMath.mcd(7, 3) == 1);
-				assert(MyMath.mcd(21, 49) == 7);		
-		
 		//test costruzione Fraction
 		//test funzionamento metodi accessor e toString
+		
 		Fraction Fraction1 = new Fraction(3, 12);
 		assert(Fraction1.getNum() == 3 && Fraction1.getDen() == 12);
 		
@@ -64,11 +60,6 @@ public class FractionTest
 		assert(sum.getNum() == sumWithMcm.getNum() && sum.getDen() == sumWithMcm.getDen());
 		assert(sum.equals(sumWithMcm) == true);
 		
-		//test funzionamento somma fra due frazioni
-				Fraction sub = Fraction2.sub(Fraction3);
-				assert(sub.getNum() == 1 && sub.getDen() == 8);
-				
-		
 		//test funzionamento prodotto fra due frazioni
 		Fraction mul = Fraction4.mul(Fraction5);
 		assert(mul.getNum() == -1 && mul.getDen() == 2);
@@ -82,15 +73,13 @@ public class FractionTest
 		assert(r.getNum() == 4 && r.getDen() == 1);
 		
 		//test funzionamento compareTo
-		    assert(Fraction1.compareTo(Fraction2)==0);
+		assert(Fraction1.compareTo(Fraction2)==0);
 		    
-		  //test funzionamento getDouble
-		    assert(Fraction1.getDouble()==0.25);
+		//test funzionamento getDouble
+		assert(Fraction1.getDouble()==0.25);
 		    
-		 //test funzionamento toString
-		    assert(Fraction1.toString().equals("3/12"));
-		
-		    
+		//test funzionamento toString
+		assert(Fraction1.toString().equals("3/12"));	    
 	}
 	
 }

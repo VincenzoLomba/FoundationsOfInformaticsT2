@@ -1,40 +1,40 @@
 package fractioncollection;
 
-import frazione.Frazione;
+import fraction.Fraction;
 
 public class FractionCollection {
 	
 	private static final int DEFAULT_PHYSICAL_SIZE = 10;
-	private Frazione[] innerContainer;
+	private Fraction[] innerContainer;
 	private int size;
 	
 	public FractionCollection (int physicalSize) {
 		
-		size = physicalSize;
-		innerContainer = new Frazione[size];
+		innerContainer = new Fraction[physicalSize];
+		size = 0;
 	}
 	
 	public FractionCollection () { this(DEFAULT_PHYSICAL_SIZE); }
 	
-	public FractionCollection (Frazione[] collection) {
+	public FractionCollection (Fraction[] collection) {
 		
-		innerContainer = new Frazione[collection.length];
-		int size = 0;
-		for (Frazione f : collection) if (f != null) innerContainer[size++] = f;
+		innerContainer = new Fraction[collection.length];
+		size = 0;
+		for (Fraction f : collection) if (f != null) innerContainer[size++] = f;
 	}
 	
 	public int size () { return size; }
 	
-	public Frazione get (int index) { return index >= 0 && index < size ? innerContainer[index] : null; }
+	public Fraction get (int index) { return index >= 0 && index < size ? innerContainer[index] : null; }
 	
-	public void put (Frazione f) {
+	public void put (Fraction f) {
 		
 		if (size < innerContainer.length) {
-			innerContainer[++size] = f;
+			innerContainer[size++] = f;
 		} else {
-			Frazione[] nw = new Frazione[innerContainer.length*2];
+			Fraction[] nw = new Fraction[innerContainer.length*2];
 			int j = 0;
-			for (Frazione fr : innerContainer) nw[j++] = fr;
+			for (Fraction fr : innerContainer) nw[j++] = fr;
 			nw[j] = f;
 			innerContainer = nw;
 			++size;
@@ -60,15 +60,15 @@ public class FractionCollection {
 	public FractionCollection sum (FractionCollection collection) {
 		
 		if (size != collection.size()) return null;
-		Frazione[] result = new Frazione[size];
-		for (int j = 0 ; j < collection.size() ; ++j) result[j] = get(j).sum(collection.get(j));
+		Fraction[] result = new Fraction[size];
+		for (int j = 0 ; j < collection.size() ; ++j)result[j] = get(j).sum(collection.get(j));
 		return new FractionCollection(result);
 	}
 	
 	public FractionCollection sub (FractionCollection collection) {
 		
 		if (size != collection.size()) return null;
-		Frazione[] result = new Frazione[size];
+		Fraction[] result = new Fraction[size];
 		for (int j = 0 ; j < collection.size() ; ++j) result[j] = get(j).sub(collection.get(j));
 		return new FractionCollection(result);
 	}
@@ -76,7 +76,7 @@ public class FractionCollection {
 	public FractionCollection mul (FractionCollection collection) {
 		
 		if (size != collection.size()) return null;
-		Frazione[] result = new Frazione[size];
+		Fraction[] result = new Fraction[size];
 		for (int j = 0 ; j < collection.size() ; ++j) result[j] = get(j).mul(collection.get(j));
 		return new FractionCollection(result);
 	}
@@ -84,7 +84,7 @@ public class FractionCollection {
 	public FractionCollection div (FractionCollection collection) {
 		
 		if (size != collection.size()) return null;
-		Frazione[] result = new Frazione[size];
+		Fraction[] result = new Fraction[size];
 		for (int j = 0 ; j < collection.size() ; ++j) result[j] = get(j).div(collection.get(j));
 		return new FractionCollection(result);
 	}
