@@ -121,7 +121,7 @@ public class Matrix {
 	
 	public double det () { return getRows() == getCols() ? calcDet() : Double.NaN; }
 	
-	public String toString() {
+	public String toString () {
 		
 		StringBuilder b = new StringBuilder("[ " + getValue(0, 0));
 		for (int i = 0 ; i < getRows() ; ++i) {
