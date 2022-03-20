@@ -5,14 +5,14 @@ package matrici;
  * @author Fondamenti di Informatica T-2 marzo 2021
  */
 public class MatrixTestMain {
+	
 	public static void main(String[] args) {
-		Matrix m = new Matrix(new double[][] { { 1, 0, 0 }, { 0, 1, 0 },
-				{ 0, 0, 1 } });
+		
+		Matrix m = new Matrix(new double[][] { { 1, 0, 0 }, { 0, 1, 0 },{ 0, 0, 1 } });
 		System.out.println(m);
 		System.out.println(m.det());
 
-		Matrix m1 = new Matrix(new double[][] { { 2, 1, 1 }, { 1, 1, 0 },
-				{ 0, 0, 1 } });
+		Matrix m1 = new Matrix(new double[][] { { 2, 1, 1 }, { 1, 1, 0 },{ 0, 0, 1 } });
 		System.out.println(m1);
 		System.out.println(m1.det());
 
