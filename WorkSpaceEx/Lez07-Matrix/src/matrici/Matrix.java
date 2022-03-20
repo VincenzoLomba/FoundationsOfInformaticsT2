@@ -4,12 +4,16 @@ public class Matrix {
 	
 	private double[][] values;
 	
-	private Matrix (int row, int col) {
-		values = new double[row][col];
-	}
+	private Matrix (int row, int col) { values = new double[row][col]; }
 	
 	public Matrix (double[][] values) {
-		this.values = values;
+		
+		this.values = new double[values.length][values[0].length];
+		for (int i = 0 ; i < values.length ; ++i) {
+			for (int j = 0 ; j < values[0].length ; ++j) {
+				this.values[i][j] = values[i][j];
+			}
+		}
 	}
 	
 	public int getRows () { return values.length; }
