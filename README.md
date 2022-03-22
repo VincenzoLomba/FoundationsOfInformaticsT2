@@ -1,6 +1,6 @@
 <body>
-
-*If you're using the content of this Repostory, please consider to <a class="github-button" href="https://github.com/VincenzoLomba/FoundationsOfInformaticsT2/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch VincenzoLomba/FoundationsOfInformaticsT2 on GitHub">Watch</a> or <a class="github-button" href="https://github.com/VincenzoLomba/FoundationsOfInformaticsT2" data-icon="octicon-star" data-show-count="true" aria-label="Star VincenzoLomba/FoundationsOfInformaticsT2 on GitHub">Star</a> it in order to help tracking how many people are drawing from it.*
+  
+*If you're using the content of this Repostory, please consider to <a class="github-button" href="https://github.com/VincenzoLomba/FoundationsOfInformaticsT2/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch VincenzoLomba/FoundationsOfInformaticsT2 on GitHub">Watch</a> or [Star](https://github.com/VincenzoLomba/FoundationsOfInformaticsT2/stargazers) it in order to help tracking how many people are drawing on it.*
 
 # Foundation of Informatics T2
 
