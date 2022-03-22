@@ -71,6 +71,7 @@ public class Matrix {
 		
 		if (!isSquared())
 			// throw new IllegalArgumentException("Is not possible to extract a minor from a not-squared matrix.");
+			// (Notice that this exercise is done on the _wrong_ assumption and design specification that is not possible to extract a minor from a not-squared matrix).
 			return null;
 		if (getRows() == 1)
 			// throw new IllegalArgumentException("Extracting a minor from a one row matrix isn't possible.");
