@@ -86,9 +86,11 @@ public class Matrix {
 			if (i == row) continue;
 			for (int j = 0 ; j < getCols() ; ++j) {
 				if (j == col) continue;
-				int iIndex = i < row ? i : i-1;
-				int jIndex = j < col ? j : j-1;
-				response.setValue(iIndex, jIndex, getValue(i, j));
+				response.setValue(
+					i < row ? i : i-1,
+					j < col ? j : j-1,
+					getValue(i, j)
+				);
 			}
 		}
 		return response;
@@ -124,12 +126,15 @@ public class Matrix {
 	
 	public String toString () {
 		
-		StringBuilder b = new StringBuilder("[ " + getValue(0, 0));
+		StringBuilder b = new StringBuilder("[ ");
+		b.append(getValue(0, 0));
 		for (int i = 0 ; i < getRows() ; ++i) {
 			for (int j = 1 ; j < getCols() ; ++j) {
-				b.append(", " + getValue(i, j));
+				b.append(", ");
+				b.append(getValue(i, j));
 			}
-			b.append(i == getRows() - 1 ? " ]" : " ]\n[ " + getValue(1+i,0));
+			b.append(i == getRows() - 1 ? " ]" : " ]\n[ ");
+			b.append(getValue(1+i,0));
 		}
 		return b.toString();
 	}
