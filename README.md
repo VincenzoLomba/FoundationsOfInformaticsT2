@@ -1,6 +1,9 @@
 <body>
   
 *If you're using the content of this Repostory, please consider to <a class="github-button" href="https://github.com/VincenzoLomba/FoundationsOfInformaticsT2/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch VincenzoLomba/FoundationsOfInformaticsT2 on GitHub">Watch</a> or [Star](https://github.com/VincenzoLomba/FoundationsOfInformaticsT2/stargazers) it in order to help tracking how many people are drawing on it.*
+  
+ [![VincenzoLomba - FoundationsOfInformaticsT2](https://img.shields.io/static/v1?label=VincenzoLomba&message=FoundationsOfInformaticsT2&color=green&logo=github)](https://github.com/VincenzoLomba/FoundationsOfInformaticsT2 "Go to GitHub repo")
+[![stars - FoundationsOfInformaticsT2](https://img.shields.io/github/stars/VincenzoLomba/FoundationsOfInformaticsT2?style=social)](https://github.com/VincenzoLomba/FoundationsOfInformaticsT2)
 
 # Foundation of Informatics T2
 
