@@ -16,5 +16,6 @@ Some useful guides about Git usage:
 - [Git, the simple guide](https://rogerdudler.github.io/git-guide/)
 - [Adding an existring project to Git](https://gist.github.com/alexpchin/102854243cd066f8b88e)
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
+- [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
 
 </body>
