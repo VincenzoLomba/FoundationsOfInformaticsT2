@@ -46,12 +46,8 @@ public class ParcometroEvoluto {
 		
 		do {
 			currentDay = currentDay.plusDays(1);
-			LocalTime startingTime = currentDay.isEqual(firstDay) ?
-									 inizio.toLocalTime() :
-									 LocalTime.of(0, 0);
-			LocalTime endingTime = currentDay.isEqual(lastDay) ?
-								   fine.toLocalTime() : 
-								   LocalTime.of(23, 59);
+			LocalTime startingTime = currentDay.isEqual(firstDay) ? inizio.toLocalTime() : LocalTime.of(0, 0);
+			LocalTime endingTime = currentDay.isEqual(lastDay) ? fine.toLocalTime() : LocalTime.of(23, 59);
 			long todayMinutes = Duration.between(startingTime, endingTime).plusMinutes(!currentDay.isEqual(lastDay) ? 1 : 0).toMinutes();
 			if (franchigia > 0) {
 				franchigia -= todayMinutes;
