@@ -2,6 +2,9 @@ package model;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.util.Locale;
 
 public class Appointment {
 	
@@ -40,9 +43,9 @@ public class Appointment {
 		return new StringBuilder(description)
 			.append("\n")
 			.append("da ")
-			.append(getFrom().toString())
+			.append(getFrom().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT).withLocale(Locale.ITALY)))
 			.append(" a ")
-			.append(getTo().toString())
+			.append(getTo().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT).withLocale(Locale.ITALY)))
 			.toString();
 	}
 

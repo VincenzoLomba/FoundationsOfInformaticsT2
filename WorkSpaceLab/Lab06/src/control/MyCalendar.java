@@ -56,18 +56,18 @@ public class MyCalendar {
 	public AppointmentCollection getDayAppointments(LocalDate date) {
 		
 		LocalDateTime start = LocalDateTime.of(date, LocalTime.of(0, 0, 0));
-		return getAppointmentsIn(start, start.plusDays(1).minusMinutes(1));
+		return getAppointmentsIn(start, start.plusDays(1));
 	}
 	
 	public AppointmentCollection getWeekAppointments(LocalDate date) {
 		
 		LocalDateTime start = LocalDateTime.of(date.minusDays(date.getDayOfWeek().ordinal()), LocalTime.of(0, 0, 0));
-		return getAppointmentsIn(start, start.plusDays(7).minusMinutes(1));
+		return getAppointmentsIn(start, start.plusWeeks(1));
 	}
 	
 	public AppointmentCollection getMonthAppointments(LocalDate date) {
 		
 		LocalDateTime start = LocalDateTime.of(date.withDayOfMonth(1), LocalTime.of(0, 0, 0));
-		return getAppointmentsIn(start, start.plusMonths(1).minusMinutes(1));
+		return getAppointmentsIn(start, start.plusMonths(1));
 	}
 }
