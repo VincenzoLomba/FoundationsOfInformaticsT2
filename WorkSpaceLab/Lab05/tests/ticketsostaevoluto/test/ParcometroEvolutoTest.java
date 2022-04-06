@@ -44,7 +44,6 @@ public class ParcometroEvolutoTest {
 		ParcometroEvoluto  emitter = new ParcometroEvoluto(tariffa); 
 		LocalDateTime from = LocalDateTime.of(2021, Month.MARCH, 24, 7, 30, 0); 
 		LocalDateTime to =   LocalDateTime.of(2021, Month.MARCH, 24, 15, 00, 0); 
-		System.out.println("<->\n" + from + " " + to);
 		TicketEvoluto tk = emitter.emettiTicket(from, to); 
 		assertEquals("9,75\u00A0€", tk.getCostoAsString()); 
 	}
