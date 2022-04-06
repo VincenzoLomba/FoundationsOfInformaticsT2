@@ -12,6 +12,7 @@ import org.junit.Test;
 import model.Appointment;
 
 public class AppointmentTest {
+	
 	@Test
 	public void testSetGetFrom() {
 		LocalDateTime dateTime = LocalDateTime.of(1980, Month.JUNE, 16, 12, 45, 0);

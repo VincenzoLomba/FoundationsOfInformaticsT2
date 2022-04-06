@@ -12,9 +12,8 @@ import org.junit.jupiter.api.Test;
 import model.*;
 
 public class AppointmentCollectionTest {
+	
 	AppointmentCollection appColl=new AppointmentCollection(10);
-
-
 
 	@Test
 	public void testAdd() {
