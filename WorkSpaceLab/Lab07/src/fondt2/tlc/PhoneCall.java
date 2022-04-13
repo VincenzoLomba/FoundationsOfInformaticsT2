@@ -1,8 +1,8 @@
 package fondt2.tlc;
 
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.time.LocalDateTime;
 
 public class PhoneCall {
 	private LocalDateTime callStart;
