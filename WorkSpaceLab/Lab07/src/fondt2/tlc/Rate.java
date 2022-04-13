@@ -6,8 +6,8 @@ import lombok.Getter;
 
 public class Rate {
 	
-	@Getter private String name;
-	@Getter private Band[] bands;
+	@Getter private String name;   /* See: https://projectlombok.org/features/GetterSetter */
+	@Getter private Band[] bands;  /* See: https://projectlombok.org/features/GetterSetter */
 	private int intervallInMills;
 	private double startCallCast;
 	private String numberRoot;

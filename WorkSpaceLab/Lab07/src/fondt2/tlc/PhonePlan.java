@@ -6,7 +6,7 @@ import lombok.Getter;
 
 public class PhonePlan {
 	
-	@Getter private String name;
+	@Getter private String name;  /* See: https://projectlombok.org/features/GetterSetter */
 	private Rate[] rates;
 	
 	public PhonePlan(String name, Rate[] rates) {
@@ -15,7 +15,11 @@ public class PhonePlan {
 		this.rates = Arrays.copyOf(rates, rates.length);
 	}
 	
-	public double getCallCost (PhoneCall call) {  return getRate(call).getCallCost(call); }
+	public double getCallCost (PhoneCall call) {
+		
+		Rate r =  getRate(call);
+		return r == null ? -1 : r.getCallCost(call);
+	}
 
 	public boolean isValid () { return true; }
 	
