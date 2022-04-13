@@ -18,6 +18,6 @@ Some useful guides about Git usage:
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
 - [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
 
-Lombock is another really useful tool: [check all its features out!](https://projectlombok.org/features/all)
+**Lombock** is another really useful tool: [check all its features out!](https://projectlombok.org/features/all)
 
 </body>
