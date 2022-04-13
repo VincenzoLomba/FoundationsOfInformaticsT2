@@ -19,7 +19,7 @@ All the code is written in [Java](https://www.oracle.com/it/java/). All projects
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
 - [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
 
-## <div>Project Lombok <img vertical-align="text-bottom" src="https://projectlombok.org/favicon.ico"></img></div>
+## <p>Project Lombok <img vertical-align="text-bottom" src="https://projectlombok.org/favicon.ico"></img></p>
   
 [Lombok](https://projectlombok.org/) is a really useful and powerful tool (and it's also used in this repository's code).<br/>
 It introduces a lot of features which make the code way more cleaner and readable.<br/>
