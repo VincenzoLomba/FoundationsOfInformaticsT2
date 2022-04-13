@@ -31,7 +31,7 @@ public class Band {
 	
 	public boolean isValid () {
 		
-		return startTime.isBefore(endTime) && combinedDays != null && !Arrays.asList(combinedDays).isEmpty() && costInterval >= 0;
+		return startTime.isBefore(endTime) && combinedDays != null && Arrays.stream(combinedDays).filter(x -> x != null).count() != combinedDays.length && costInterval >= 0;
 	}
 
 }
