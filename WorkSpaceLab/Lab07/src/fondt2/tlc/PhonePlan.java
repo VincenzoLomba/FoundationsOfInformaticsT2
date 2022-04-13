@@ -17,8 +17,8 @@ public class PhonePlan {
 	
 	public double getCallCost (PhoneCall call) {
 		
-		Rate r =  getRate(call);
-		return r == null ? -1 : r.getCallCost(call);
+		Rate rate =  getRate(call);
+		return rate == null ? -1 : rate.getCallCost(call);
 	}
 
 	public boolean isValid () { return true; }
