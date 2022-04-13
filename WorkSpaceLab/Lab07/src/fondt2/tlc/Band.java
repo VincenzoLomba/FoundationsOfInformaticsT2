@@ -26,12 +26,17 @@ public class Band {
 	public boolean isInBand (LocalDateTime localDateTime) {
 		
 		LocalTime lt = LocalTime.of(localDateTime.getHour(), localDateTime.getMinute(), localDateTime.getSecond());
-		return DayOfWeekHelper.isDayIn(localDateTime.getDayOfWeek(), combinedDays) && !lt.isBefore(startTime) && !lt.isAfter(endTime);
+		return DayOfWeekHelper.isDayIn(localDateTime.getDayOfWeek(), getCombinedDays()) && !lt.isBefore(getStartTime()) && !lt.isAfter(getEndTime());
 	}
 	
 	public boolean isValid () {
 		
-		return startTime.isBefore(endTime) && combinedDays != null && Arrays.stream(combinedDays).filter(x -> x != null).count() != combinedDays.length && costInterval >= 0;
+		return getStartTime().isBefore(getEndTime())
+			&& getCombinedDays() != null
+			&& getCombinedDays().length > 0
+			&& Arrays.stream(getCombinedDays()).allMatch(x -> x != null)
+			&& getCostInterval() >= 0
+		;
 	}
 
 }
