@@ -21,8 +21,8 @@ All the code is written in [Java](https://www.oracle.com/it/java/). All projects
 
 ## Project Lombok
   
-[Lombok](https://projectlombok.org/) is a really useful and powerful tool (and is also used in this repository's code).<br/>
-It introduces a lot of features which make the code way more cleaner and readable. The annotation [@Getter](https://projectlombok.org/features/GetterSetter) is a cool example.<br/>
-[Check all its features out!](https://projectlombok.org/features/all)
+[Lombok](https://projectlombok.org/) is a really useful and powerful tool (and it's also used in this repository's code).<br/>
+It introduces a lot of features which make the code way more cleaner and readable.<br/>
+The annotation [@Getter](https://projectlombok.org/features/GetterSetter) is a cool example. [Check all its features out!](https://projectlombok.org/features/all)
 
 </body>
