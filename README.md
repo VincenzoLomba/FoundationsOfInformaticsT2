@@ -11,13 +11,18 @@ This repository contains all the code developed during lessions of [Foundation o
 which is a teaching of [Computer Engeneering's degree](https://corsi.unibo.it/1cycle/ComputerEngineering) ([Alma Mater Studiorum, University of Bologna](https://www.unibo.it/en/homepage)).<br/>
 <br/>
 All the code is written in [Java](https://www.oracle.com/it/java/). All projects and exercises are developed using [Eclipse](https://www.eclipse.org/).<br/>
-<br/>
-Some useful guides about Git usage:
+  
+## Some useful guides about Git usage:
+  
 - [Git, the simple guide](https://rogerdudler.github.io/git-guide/)
 - [Adding an existring project to Git](https://gist.github.com/alexpchin/102854243cd066f8b88e)
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
 - [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
 
-**Lombock** is another really useful tool: [check all its features out!](https://projectlombok.org/features/all)
+## Project Lombok
+  
+[Lombok](https://projectlombok.org/) is a really useful and powerful tool (and is also used in this repository's code).<br/>
+It introduces a lot of features which make the code way more cleaner and readable. The annotation [@Getter](https://projectlombok.org/features/GetterSetter) is a cool example.<br/>
+[Check all its features out!](https://projectlombok.org/features/all)
 
 </body>
