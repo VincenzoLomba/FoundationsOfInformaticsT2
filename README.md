@@ -17,5 +17,7 @@ Some useful guides about Git usage:
 - [Adding an existring project to Git](https://gist.github.com/alexpchin/102854243cd066f8b88e)
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
 - [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
+<br/>
+Another really useful tool is [Lombock](https://projectlombok.org/download): [check all its features out!](https://projectlombok.org/features/all)!
 
 </body>
