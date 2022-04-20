@@ -12,20 +12,20 @@ which is a teaching of [Computer Engeneering's degree](https://corsi.unibo.it/1c
 <br/>
 All the code is written in [Java](https://www.oracle.com/it/java/). All projects and exercises are developed using [Eclipse](https://www.eclipse.org/).<br/>
   
-## Some useful guides about Git usage:
+### Some useful guides about Git usage
   
 - [Git, the simple guide](https://rogerdudler.github.io/git-guide/)
 - [Adding an existring project to Git](https://gist.github.com/alexpchin/102854243cd066f8b88e)
 - [How to use .gitignore](https://git-scm.com/docs/gitignore)
 - [Git Badge Generator](https://michaelcurrin.github.io/badge-generator/#/repo)
 
-## <div>The amazing Project Lombok <img src="https://projectlombok.org/favicon.ico"></img></div>
+### <div>The amazing Project Lombok <img src="https://projectlombok.org/favicon.ico"></img></div>
   
 [Lombok](https://projectlombok.org/) is a really useful and powerful tool (and it's also used in this repository's code).<br/>
 It introduces a lot of features which make the code way more cleaner and readable.<br/>
 The annotation [@Getter](https://projectlombok.org/features/GetterSetter) is a cool example. [Check all its features out!](https://projectlombok.org/features/all)
 
-## Java Streams: what a cool feature!
+### Java Streams: what a cool feature!
 
 With a view to smart coding, [Java Streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) are a very powerful tool. Here it is a [synthetic and effective italian guide](https://italiancoders.it/java-stream-le-basi/) about Streams.<br/>
 An example:
