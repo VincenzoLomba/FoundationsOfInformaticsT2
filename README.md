@@ -27,7 +27,8 @@ The annotation [@Getter](https://projectlombok.org/features/GetterSetter) is a c
 
 ## Java Streams: what a cool feature!
 
-With a view to smart coding, [Java Streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) are a very powerful tool. Here it is a [synthetic and effective italian guide](https://italiancoders.it/java-stream-le-basi/) about Streams.
+With a view to smart coding, [Java Streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html) are a very powerful tool. Here it is a [synthetic and effective italian guide](https://italiancoders.it/java-stream-le-basi/) about Streams.<br/>
+An example:
 ```
 int sum = widgets.stream()
                  .filter(w -> w.getColor() == RED)
