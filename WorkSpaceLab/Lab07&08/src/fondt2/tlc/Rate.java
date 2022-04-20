@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Optional;
 
+import fondt2.tlc.util.DayOfWeekHelper;
 import lombok.Getter;
 
 public class Rate {
@@ -30,7 +31,7 @@ public class Rate {
 	
 	private Band[] selectBandsInDay (DayOfWeek day) {
 		
-		return Arrays.stream(bands).filter(b -> Arrays.asList(b.getCombinedDays()).contains(day)).toArray(Band[]::new);
+		return Arrays.stream(bands).filter(b -> DayOfWeekHelper.isDayIn(day, b.getCombinedDays())).toArray(Band[]::new);
 	}
 	
 	private Band[] sortBandsByStartTime (Band[] bands) {
