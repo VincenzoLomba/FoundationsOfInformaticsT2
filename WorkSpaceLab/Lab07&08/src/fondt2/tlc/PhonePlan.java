@@ -21,7 +21,14 @@ public class PhonePlan {
 		return (rate = getRate(call)) == null ? -1 : rate.getCallCost(call);
 	}
 
-	public boolean isValid () { return true; }
+	public boolean isValid () {
+		
+		/* The "name" is assumed correct */
+		return rates != null
+			&& rates.length > 0
+			&& Arrays.stream(rates).allMatch(r -> r.isValid())
+		;
+	}
 	
 	private Rate getRate (PhoneCall phoneCall) {
 		

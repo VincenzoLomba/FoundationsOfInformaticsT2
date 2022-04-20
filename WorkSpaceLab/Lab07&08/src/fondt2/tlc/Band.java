@@ -33,13 +33,13 @@ public class Band {
 	
 	public boolean isValid () {
 		
-		return getStartTime() != null
+		return getCostPerInterval() >= 0
+			&& getStartTime() != null
 			&& getEndTime() != null
 			&& getStartTime().isBefore(getEndTime())
 			&& getCombinedDays() != null
 			&& getCombinedDays().length > 0
 			&& Arrays.stream(getCombinedDays()).allMatch(x -> x != null)
-			&& getCostPerInterval() >= 0
 		;
 	}
 
