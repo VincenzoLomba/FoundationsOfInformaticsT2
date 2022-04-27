@@ -1,15 +1,21 @@
 package media.collection.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 import org.junit.jupiter.api.Test;
 
-import media.*;
+import media.Ebook;
+import media.Media;
+import media.Photo;
+import media.Song;
 import media.collection.MediaCollection;
 
 
 public class MediaCollectionTest {
 	@Test
 	public void testAggiungi() {
+		
 		MediaCollection collection = new MediaCollection(10);
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		collection.add(song);
@@ -20,6 +26,7 @@ public class MediaCollectionTest {
 
 	@Test
 	public void testIndexOf() {
+		
 		MediaCollection collection = new MediaCollection(10);
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		collection.add(song);
@@ -32,6 +39,7 @@ public class MediaCollectionTest {
 
 	@Test
 	public void testRimuovi() {
+		
 		MediaCollection collection = new MediaCollection(10);
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		collection.add(song);
@@ -44,6 +52,7 @@ public class MediaCollectionTest {
 
 	@Test
 	public void testGet() {
+		
 		MediaCollection collection = new MediaCollection(10);
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		collection.add(song);

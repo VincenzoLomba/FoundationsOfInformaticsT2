@@ -2,10 +2,11 @@ package media;
 
 import lombok.Getter;
 import lombok.Setter;
+import media.filters.HasType;
 
 @Getter
 @Setter
-public abstract class Media {
+public abstract class Media implements HasType{
 	
 	private String title = null;
 	private int year = -1;
@@ -15,8 +16,6 @@ public abstract class Media {
 		this.title = title;
 		this.year = year;
 	}
-	
-	public abstract Type getType ();
 	
 	public boolean equals (Object o) {
 		

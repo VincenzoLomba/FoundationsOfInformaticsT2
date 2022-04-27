@@ -39,5 +39,11 @@ public class MediaController {
 		return false;
 	}
 	
-	public MediaCollection find (Filter f) { return null; }
+	public MediaCollection find (Filter f) {
+		
+		MediaCollection response = new MediaCollection();
+		for (int j = 0 ; j < allMedias.size() ; ++j)
+			if (f.filter(allMedias.get(j))) response.add(allMedias.get(j));
+		return response;
+	}
 }
