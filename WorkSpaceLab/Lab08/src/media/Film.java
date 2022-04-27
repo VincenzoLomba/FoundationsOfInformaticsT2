@@ -46,7 +46,7 @@ public class Film extends Media implements HasDuration, HasGenre {
 		
 		return new StringBuilder()
 			.append(super.toString())
-			.append(Arrays.stream(getActors()).reduce("\nAttori: ", (s1, s2) -> s1 + "," + s2 ))
+			.append("\nAttori: ").append(Arrays.stream(getActors()).reduce((s1, s2) -> s1 + "," + s2 ).get())
 			.append("\nDirettore: ").append(getDirector())
 			.append("\nDurata: ").append(getDuration())
 			.append("\nGenere: ").append(getGenre())

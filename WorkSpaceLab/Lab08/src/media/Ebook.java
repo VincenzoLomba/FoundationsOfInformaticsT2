@@ -39,7 +39,7 @@ public class Ebook extends Media implements HasGenre {
 		
 		return new StringBuilder()
 			.append(super.toString())
-			.append(Arrays.stream(getAuthors()).reduce("\nAutori: ", (s1, s2) -> s1 + "," + s2 ))
+			.append("\nAutori: ").append(Arrays.stream(getAuthors()).reduce((s1, s2) -> s1 + "," + s2 ).get())
 			.append("\nGenere: ").append(getGenre())
 			.toString();
 	}
