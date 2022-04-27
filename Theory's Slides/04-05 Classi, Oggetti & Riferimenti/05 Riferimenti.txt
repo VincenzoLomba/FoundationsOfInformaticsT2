@@ -1,0 +1,4 @@
+Riferimenti in Java,
+null,
+this & that,
+utilizzo dell'operatore modulo resto %

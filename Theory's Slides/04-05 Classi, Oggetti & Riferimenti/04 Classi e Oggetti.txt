@@ -1,0 +1,5 @@
+Entità Statiche,
+Asserzioni,
+Oggetti Dinamici,
+Costruttori,
+Utilizzo di "var"
