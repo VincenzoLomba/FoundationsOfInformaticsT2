@@ -8,8 +8,8 @@ import media.filters.HasDuration;
 import media.filters.HasGenre;
 import utils.StringUtils;
 
-@Getter
-@Setter
+@Getter /* See: https://projectlombok.org/features/GetterSetter */
+@Setter /* See: https://projectlombok.org/features/GetterSetter */
 public class Film extends Media implements HasDuration, HasGenre {
 	
 	private String[] actors = null;

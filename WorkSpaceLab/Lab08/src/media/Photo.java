@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 import utils.StringUtils;
 
-@Getter
-@Setter
+@Getter /* See: https://projectlombok.org/features/GetterSetter */
+@Setter /* See: https://projectlombok.org/features/GetterSetter */
 public class Photo extends Media {
 
 	private String[] authors = null;

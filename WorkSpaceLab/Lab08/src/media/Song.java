@@ -5,8 +5,8 @@ import lombok.Setter;
 import media.filters.HasDuration;
 import media.filters.HasGenre;
 
-@Getter
-@Setter
+@Getter /* See: https://projectlombok.org/features/GetterSetter */
+@Setter /* See: https://projectlombok.org/features/GetterSetter */
 public class Song extends Media implements HasDuration, HasGenre {
 
 	private int duration = -1;
