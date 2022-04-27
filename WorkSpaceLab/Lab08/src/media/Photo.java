@@ -35,7 +35,7 @@ public class Photo extends Media {
 		
 		return new StringBuilder()
 			.append(super.toString())
-			.append("\nAutori: ").append(Arrays.stream(getAuthors()).reduce((s1, s2) -> s1 + "," + s2 ).get())
+			.append("\nAutori: ").append(Arrays.stream(getAuthors()).reduce((s1, s2) -> s1 + ", " + s2 ).get())
 			.toString();
 	}
 }

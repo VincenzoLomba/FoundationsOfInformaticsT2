@@ -13,6 +13,7 @@ import media.collection.MediaCollection;
 
 
 public class MediaCollectionTest {
+	
 	@Test
 	public void testAggiungi() {
 		

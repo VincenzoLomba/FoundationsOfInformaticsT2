@@ -1,10 +1,17 @@
 package controller.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import controller.MediaController;
-import media.*;
+import media.Ebook;
+import media.Film;
+import media.Photo;
+import media.Song;
 import media.filters.DurationFilter;
 import media.filters.GenreFilter;
 
@@ -16,11 +23,11 @@ public class MediaControllerTest {
 	public void setUp() throws Exception {
 
 		media = new MediaController();
-
 	}
 
 	@Test
 	public void testAggiungiMedia() {
+		
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		assertTrue(media.add(song));
 
@@ -28,10 +35,10 @@ public class MediaControllerTest {
 
 	@Test
 	public void testRimuovi() {
+		
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		media.add(song);
-		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127,
-				new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
+		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127, new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
 		media.add(film);
 		assertTrue(media.remove(song));
 		assertEquals(1, media.getAll().size());
@@ -41,11 +48,11 @@ public class MediaControllerTest {
 
 	@Test
 	public void testGetAll() {
+		
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		media.add(song);
 		media.add(song);	// doppio
-		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127,
-				new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
+		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127, new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
 		media.add(film);
 		media.add(film);	// doppio
 		media.add(film);	// doppio
@@ -56,19 +63,17 @@ public class MediaControllerTest {
 
 	@Test
 	public void testCerca() {
+		
 		// preparo la collezione
 		Song song = new Song("Questo Piccolo Grande Amore", 1972, "Claudio Baglioni", 6, "Melenso");
 		media.add(song);
 		song = new Song("Questo Piccolo Grande Amore 2", 1973, "Claudio Baglioni", 6, "Melenso");
 		media.add(song);
-		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127,
-				new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
+		Film film = new Film("Guerre Stellari", 1977, "George Lucas", 127, new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher" }, "Fantascienza");
 		media.add(film);
-		film = new Film("Guerre Stellari 23", 2040, "George Lucas", 127,
-				new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher (RIP)" }, "Fantascienza");
+		film = new Film("Guerre Stellari 23", 2040, "George Lucas", 127, new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher (RIP)" }, "Fantascienza");
 		media.add(film);
-		film = new Film("Guerre Stellari 42", 2080, "George Lucas", 127,
-				new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher (RIP RIP)" }, "Fantascienza");
+		film = new Film("Guerre Stellari 42", 2080, "George Lucas", 127, new String[] { "Mark Hamill", "Harrison Ford", "Carrie Fisher (RIP RIP)" }, "Fantascienza");
 		media.add(film);
 		Ebook ebook = new Ebook("Il Signore degli Anelli", 1955, new String[] { "J.R.R. Tolkien" }, "Fantasy");
 		media.add(ebook);
@@ -76,7 +81,6 @@ public class MediaControllerTest {
 		media.add(foto);
 
 		// cerco la durata
-
 		DurationFilter dFinder = new DurationFilter(0);
 		assertEquals(5, media.find(dFinder).size());
 		dFinder.setDuration(6);
