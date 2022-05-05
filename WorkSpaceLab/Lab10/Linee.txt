@@ -1,0 +1,22 @@
+Linea 32
+0,  40, Porta San Mamolo 
+3,  42, Aldini
+5,  44, Porta Saragozza - Villa Cassarini
+17, 16, Stazione Centrale
+38, 40, Porta San Mamolo
+--------------------------
+Linea 33
+ 0, 47, Porta Saragozza - Villa Cassarini
+ 2, 49, Aldini
+ 3, 45, Petrarca
+ 5, 43, Porta San Mamolo
+26, 09, Stazione Centrale
+38, 47, Porta Saragozza - Villa Cassarini
+--------------------------
+Linea M1
+0, 40, Porta San Mamolo
+3, 803, Tribunale
+5, 701, Piazza Malpighi
+7, 452, Marconi
+10, 474, Stazione Centrale
+--------------------------
