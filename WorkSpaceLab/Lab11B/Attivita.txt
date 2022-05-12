@@ -1,0 +1,37 @@
+Aerobica        --  5  6  7
+Step--      7 9  11
+Cyclette--  5 7  11
+Pesi braccia-- 3  4  6
+Basket-- 6 7 8
+Calcio-- 8 9 10
+Jogging-- 8 10 12
+Sci fondo-- 7 10 14
+Sci discesa-- 5 7 8
+Ciclismo-- 4 8 12
+Canoa-- 3 7 12
+Nuoto libero-- 7 8 10
+Nuoto dorso-- 6 8 9
+Nuoto farfalla-- 8 9 11
+Nuoto rana-- 7 8 10
+Body building-- 3 4 6
+Yoga-- 4 5 7
+Mixed martial arts-- 9 10 11
+Judo-- 7 8 9
+Boxe-- 12 13 14
+Boxe sacco-- 5 6 7
+Jujitsu-- 7 8 9
+Karate-- 7 8 9
+Kickboxing-- 7 8 9
+Taekwondo-- 7 8 9
+Surf-- 3 4 5
+Acquagym-- 3 4 5
+Pallanuoto-- 11 12 13
+Camminata-- 2 4 6
+Allenamento a circuito-- 6 7 8
+Addominali-- 8 9 10
+Crossfit-- 7 8 9
+High Intensity Interval Training-- 7 8 9
+Pilates-- 3 4 8
+GAG-- 8 9 10
+Vogatore-- 6 8 10
+Cardio--  7 8 9
