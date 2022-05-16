@@ -1,5 +1,4 @@
 package bussy.ui;
-import java.awt.Color;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -38,7 +37,7 @@ public class BussyApp extends Application {
 		MainPane panel = new MainPane(controller);
 		// --- set up scene
 		stage.setTitle("Bussy - Viaggia con trasporto!");
-		Scene scene = new Scene(panel,Color.WHITE);
+		Scene scene = new Scene(panel);
 		stage.setScene(scene);
 		stage.show(); 
 	}
