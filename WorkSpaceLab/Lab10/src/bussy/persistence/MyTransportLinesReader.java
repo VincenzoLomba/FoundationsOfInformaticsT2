@@ -1,10 +1,11 @@
 package bussy.persistence;
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import bussy.model.Fermata;
 import bussy.model.Linea;
-import bussy.model.LineaPaP;
 import bussy.model.LineaPaP;
 
 public class MyTransportLinesReader implements TransportLinesReader {
