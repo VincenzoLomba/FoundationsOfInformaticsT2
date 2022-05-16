@@ -21,14 +21,21 @@ public class MyCalendarTest {
 
 	@BeforeEach
 	public void setUp() {
+		
 		myCal = new MyCalendar(new MyCalendarPersister());
 	}
 
 	@Test
 	public void testAdd() {
+		
+		System.out.println(myCal.getAllAppointments().size());
+		
 		LocalDateTime from = LocalDateTime.of(2019, Month.MARCH, 10, 12, 30, 0);
 		LocalDateTime to = LocalDateTime.of(2019, Month.MARCH, 10, 15, 30, 0);
 		Appointment app = new Appointment("Compleanno", from, to);
+		
+		System.out.println(myCal.getAllAppointments().size());
+		
 		myCal.add(app);
 		
 		assertEquals(1, myCal.getAllAppointments().size());
@@ -36,6 +43,7 @@ public class MyCalendarTest {
 
 	@Test
 	public void testGetListAppointmentDay() {
+		
 		LocalDateTime from1 = LocalDateTime.of(2019, Month.MARCH, 10, 12, 30, 0);
 		LocalDateTime to1 = LocalDateTime.of(2019, Month.MARCH, 10, 15, 30, 0);
 		Appointment app1 = new Appointment("Compleanno", from1, to1);
@@ -54,6 +62,7 @@ public class MyCalendarTest {
 
 	@Test
 	public void testRemove() {
+		
 		LocalDateTime from1 = LocalDateTime.of(2012, Month.MARCH, 10, 12, 30, 0);
 		LocalDateTime to1 = LocalDateTime.of(2012, Month.MARCH, 10, 15, 30, 0);
 		Appointment app1 = new Appointment("Compleanno", from1, to1);
@@ -73,6 +82,7 @@ public class MyCalendarTest {
 
 	@Test
 	public void testGetListAppointmentMonth() {
+		
 		LocalDateTime from1 = LocalDateTime.of(2012, Month.MARCH, 31, 12, 30, 0);
 		LocalDateTime to1 = LocalDateTime.of(2012, Month.MARCH, 13, 15, 30, 0);
 		Appointment app1 = new Appointment("Compleanno", from1, to1);
@@ -95,6 +105,10 @@ public class MyCalendarTest {
 
 	@Test
 	public void testGetListAppointmentWeek() {
+		
+		LocalDate date = LocalDate.of(2015, Month.APRIL, 1);
+		System.out.println(myCal.getWeekAppointments(date).size());
+		
 		LocalDateTime from1 = LocalDateTime.of(2015, Month.MARCH, 31, 12, 30, 0);
 		LocalDateTime to1 = LocalDateTime.of(2015, Month.MARCH, 31, 15, 30, 0);
 		Appointment app1 = new Appointment("Compleanno", from1, to1);
@@ -115,7 +129,6 @@ public class MyCalendarTest {
 		Appointment app4 = new Appointment("Lezione", from4, to4);
 		myCal.add(app4);
 
-		LocalDate date = LocalDate.of(2015, Month.APRIL, 1);
 		AppointmentCollection coll = myCal.getWeekAppointments(date);
 		assertEquals(3, coll.size());
 	}
