@@ -15,6 +15,10 @@ public class Workout {
 	public Workout (LocalDate date, int duration, Intensity intensity, Activity activity) {
 		if (date == null || duration <= 0 || intensity == null || activity == null)
 			throw new IllegalArgumentException("Uno o piu' dei parametri passati a costruttore risultano essere nulli.");
+		this.date = date;
+		this.duration = duration;
+		this.intensity = intensity;
+		this.activity = activity;
 	}
 	
 	public int getBurnedCalories () { return duration*activity.getCalories(intensity); }

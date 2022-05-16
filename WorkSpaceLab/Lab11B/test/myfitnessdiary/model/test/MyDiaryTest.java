@@ -1,12 +1,12 @@
 package myfitnessdiary.model.test;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
+import org.junit.jupiter.api.Test;
 
 import myfitnessdiary.model.Activity;
 import myfitnessdiary.model.FitnessDiary;
@@ -18,6 +18,7 @@ public class MyDiaryTest {
 
 	@Test
 	public void addTest() {
+		
 		FitnessDiary diary = new MyFitnessDiary();
 
 		Activity act = new Activity("AS4");
@@ -60,7 +61,7 @@ public class MyDiaryTest {
 	public void getWeekFeatures() {
 
 		FitnessDiary diary = new MyFitnessDiary();
-
+		
 		Activity act = new Activity("AS4");
 		act.insertCalories(Intensity.LOW, 10);
 		act.insertCalories(Intensity.MEDIUM, 11);

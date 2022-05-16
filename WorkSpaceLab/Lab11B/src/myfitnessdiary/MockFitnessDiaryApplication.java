@@ -1,6 +1,5 @@
 package myfitnessdiary;
 
-import java.awt.Color;
 import java.io.Writer;
 import java.time.LocalDate;
 
@@ -27,7 +26,7 @@ public class MockFitnessDiaryApplication extends Application {
 		stage.setTitle("My Fitness Diary");
 		MyFitnessPane root = new MyFitnessPane(controller);
 
-		Scene scene = new Scene(root, 980, 480, Color.ALICEBLUE);
+		Scene scene = new Scene(root, 980, 480);
 		stage.setScene(scene);
 		stage.show();
 	}

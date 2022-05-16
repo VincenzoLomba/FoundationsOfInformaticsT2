@@ -10,6 +10,7 @@ import myfitnessdiary.model.Workout;
 public class MyDiaryMock extends MyFitnessDiary {
 
 	public MyDiaryMock() {
+		
 		super();
 		Activity act = new Activity("AS4");
 		act.insertCalories(Intensity.LOW, 10);
@@ -42,5 +43,4 @@ public class MyDiaryMock extends MyFitnessDiary {
 		wo = new Workout(LocalDate.now().plusDays(1), 20, Intensity.HIGH, act);
 		addWorkout(wo);
 	}
-
 }

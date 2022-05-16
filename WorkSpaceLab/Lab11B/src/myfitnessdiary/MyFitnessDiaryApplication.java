@@ -3,6 +3,12 @@ package myfitnessdiary;
 import java.io.FileReader;
 import java.io.IOException;
 
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
 import myfitnessdiary.controller.Controller;
 import myfitnessdiary.controller.MyController;
 import myfitnessdiary.model.FitnessDiary;
@@ -11,12 +17,6 @@ import myfitnessdiary.persistence.ActivityRepository;
 import myfitnessdiary.persistence.BadFileFormatException;
 import myfitnessdiary.persistence.MyReportWriter;
 import myfitnessdiary.persistence.TextFileActivityRepository;
-import javafx.application.Application;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Alert.AlertType;
-import javafx.scene.paint.Color;
 
 public class MyFitnessDiaryApplication extends Application {
 

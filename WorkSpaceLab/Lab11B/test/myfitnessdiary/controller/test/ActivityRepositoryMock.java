@@ -12,6 +12,7 @@ public class ActivityRepositoryMock implements ActivityRepository {
 	private HashMap<String, Activity> allActivities;
 
 	public ActivityRepositoryMock() {
+		
 		allActivities = new HashMap<String, Activity>();
 
 		Activity act = new Activity("AS4");
@@ -51,8 +52,7 @@ public class ActivityRepositoryMock implements ActivityRepository {
 	}
 
 	public Set<String> getActivityNames() {
+		
 		return allActivities.keySet();
-
 	}
-
 }

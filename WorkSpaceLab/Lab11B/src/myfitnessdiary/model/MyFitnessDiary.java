@@ -1,9 +1,7 @@
+package myfitnessdiary.model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
-import myfitnessdiary.model.FitnessDiary;
-import myfitnessdiary.model.Workout;
 
 public class MyFitnessDiary implements FitnessDiary {
 
@@ -25,10 +23,9 @@ public class MyFitnessDiary implements FitnessDiary {
 		
 		List<Workout> response = new ArrayList<Workout>();
 		LocalDate day = date.minusDays(date.getDayOfWeek().ordinal());
-		while (day.getDayOfWeek().ordinal() < 6) {
-			response.addAll(getDayWorkouts(date));
-			day.plusDays(1);
-		}
+		response.addAll(getDayWorkouts(day));
+		for (day = day.plusDays(1) ; day.getDayOfWeek().ordinal() != 0 ; day = day.plusDays(1))
+			response.addAll(getDayWorkouts(day));
 		return response;
 	}
 	
