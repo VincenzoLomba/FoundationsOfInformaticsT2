@@ -7,9 +7,9 @@ import java.time.LocalTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class FlightSchedule {
 	
@@ -31,7 +31,7 @@ public class FlightSchedule {
 		this.arrivalLocalTime = arrivalLocalTime;
 		this.code = code;
 		this.dayOffset = dayOffset;
-		this.daysOfWeek = new HashSet<>(daysOfWeek);
+		this.daysOfWeek = new TreeSet<>(daysOfWeek); /* It has to be ordered. */
 		this.departureAirport = departureAirport;
 		this.departureLocalTime = departureLocalTime;
 	}

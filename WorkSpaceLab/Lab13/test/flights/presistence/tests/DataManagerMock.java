@@ -21,8 +21,8 @@ public class DataManagerMock extends DataManager {
 	private Collection<FlightSchedule> flightSchedules;
 
 	public DataManagerMock() {
-		super(new CitiesReaderMock(), new AircraftsReaderMock(),
-				new FlightScheduleReaderMock());
+		
+		super(new CitiesReaderMock(), new AircraftsReaderMock(), new FlightScheduleReaderMock());
 
 		airportMap = new HashMap<String, Airport>();
 		City alf = new City("Alf", "Alfonsine", 2);
