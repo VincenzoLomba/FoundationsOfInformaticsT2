@@ -45,6 +45,4 @@ public class MyController implements Controller {
 			fs.getDaysOfWeek().contains(date.getDayOfWeek())
 		).toList();
 	}
-
-	
 }
