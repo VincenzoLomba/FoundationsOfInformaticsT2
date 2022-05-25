@@ -1,0 +1,14 @@
+738,Boeing 737-800,189
+734,Boeing 737-400,144
+AT4,ATR-42,46
+321,Airbus A-321,185
+320,Airbus A-330,200
+332,Airbus A-330-200,200
+343,Airbus A-340-300,228
+777,Boeing 777,310
+77E,Boeing 777 Extended Range,238
+743,Boeing 747-300,405
+744,Boeing 747-400,415
+M82,McDonnel-Douglas MD-82,155
+CRJ,Canadair Regional Jet,78
+100,Fokker F100,102

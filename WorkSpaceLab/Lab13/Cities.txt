@@ -1,0 +1,29 @@
+LON,GMT+1,London,LHR/Heathrow,LGW/Gatwick,STN/Stansted
+BLQ,GMT+2,Bologna
+NYC,GMT-4,New York,JFK/John F. Kennedy,LGA/La Guardia,EWR/Newark
+CHI,GMT-5,Chicago,ORD/O'Hare
+BNE,GMT+10,Brisbane
+ROM,GMT+2,Roma,FCO/Fiumicino,CIA/Ciampino
+MIL,GMT+2,Milano,LIN/Linate,MXP/Malpensa
+PAR,GMT+2,Paris,CDG/De Gaulle,ORY/Orly,BVA/Beauvais
+VRN,GMT+2,Verona
+GRO,GMT+2,Gerona
+NCE,GMT+2,Nice
+CTA,GMT+2,Catania
+PMO,GMT+2,Palermo
+AHO,GMT+2,Alghero
+CAG,GMT+2,Cagliari
+OLB,GMT+2,Olbia
+BRI,GMT+2,Bari
+BDS,GMT+2,Brindisi
+AOI,GMT+2,Ancona
+SUF,GMT+2,Lamezia Terme
+PRG,GMT+2,Prague
+SFO,GMT-7,San Francisco
+LAS,GMT-7,Las Vegas
+ATH,GMT+3,Athens
+AMS,GMT+2,Amsterdam
+CAI,GMT+2,Cairo
+TYO,GMT+9,Tokyo
+HKG,GMT+8,Hong Kong
+
