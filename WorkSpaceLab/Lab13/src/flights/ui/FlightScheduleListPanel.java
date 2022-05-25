@@ -8,6 +8,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
 public class FlightScheduleListPanel extends ScrollPane {
+	
 	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
 	

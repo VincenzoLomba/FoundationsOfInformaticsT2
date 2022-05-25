@@ -13,6 +13,7 @@ import flights.model.FlightSchedule;
 import fondt2.ioutils.StdInput;
 
 public class FlightConsoleUi {
+	
 	private Controller controller;
 	private StdInput input;
 

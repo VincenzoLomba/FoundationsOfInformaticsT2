@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
 public class FlightSchedulePanel extends GridPane {
+	
 	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
 
