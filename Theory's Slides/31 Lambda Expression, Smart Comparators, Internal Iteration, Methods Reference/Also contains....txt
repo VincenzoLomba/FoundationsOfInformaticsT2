@@ -1,0 +1,5 @@
+Lamba Expression
+Consumer, Supplier, Predicate, Function
+Smart Comparators
+Method (or Constructor) Reference
+Internal Iteration
