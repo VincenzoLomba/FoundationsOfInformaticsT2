@@ -1,0 +1,9 @@
+
+	<> ElboniaTaxComparator: alcune note <>
+
+> Nella classe "Fascia" è mostrato l'utilizzo di:
+  - "NumberFormat" come "percentageFormatter"
+  - "DecimalFormat" come "currencyFormatter"
+  
+> L'ultima Fascia, che va da un valore minimo fino a qualsiasi superiore:
+  - utilizza Double.MAX_VALUE come valore massimo.
