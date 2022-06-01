@@ -1,0 +1,63 @@
+GEMELLI
+-------
+GENNAIO
+Amore:	divertimento nello stare insieme
+Lavoro:	non sopravvalutate chi vi e' intorno
+Salute:	non affaticate la cistifellea
+
+FEBBRAIO
+Amore:	chi e' single avra' nuove occasioni
+Lavoro:	impegnatevi di piu'
+Salute:	perfetto equilibrio
+
+MARZO
+Amore:	grande intimita'
+Lavoro:	impegnatevi di piu'
+Salute:	meglio mangiare in modo salutare
+
+APRILE
+Amore:	divertimento nello stare insieme
+Lavoro:	non sopravvalutate chi vi e' intorno
+Salute:	non siate irritabili
+
+MAGGIO
+Amore:	grande intimita'
+Lavoro:	non sopravvalutate chi vi e' intorno
+Salute:	non affaticate la cistifellea
+
+GIUGNO
+Amore:	divertimento nello stare insieme
+Lavoro:	impegnatevi di piu'
+Salute:	potete permettervi anche i pasticcini
+
+LUGLIO
+Amore:	chi e' single avra' nuove occasioni
+Lavoro:	la lungimiranza sara' la vostra forza
+Salute:	potete permettervi anche i pasticcini
+
+AGOSTO
+Amore:	servira' un po' di pazienza
+Lavoro:	non sopravvalutate chi vi e' intorno
+Salute:	potete permettervi anche i pasticcini
+
+SETTEMBRE
+Amore:	servira' un po' di pazienza
+Lavoro:	diffidate di un collega invidioso
+Salute:	non affaticate la cistifellea
+
+OTTOBRE
+Amore:	grande intimita'
+Lavoro:	cogliete le occasioni
+Salute:	attenzione alle piccole infiammazioni
+
+NOVEMBRE
+Amore:	divertimento nello stare insieme
+Lavoro:	cogliete le occasioni
+Salute:	meglio mangiare in modo salutare
+
+DICEMBRE
+Amore:	avrai la testa un po' altrove
+Lavoro:	cogliete le occasioni
+Salute:	potete permettervi anche i pasticcini
+
+GRADO DI FORTUNA:	6
