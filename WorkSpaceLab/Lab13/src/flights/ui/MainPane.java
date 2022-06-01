@@ -26,7 +26,7 @@ public class MainPane extends BorderPane {
 		/* The Frame dimensions are imposed by the main Application. */
 		
 		this.setLeft(leftPanel);
-		this.setCenter(rightPanel);
+		this.setCenter(rightPanel); /* In a BordarPane the central element always has to be set. */
 		
 		Label departureAirportLabel = new Label("Departure Airport");
 		leftPanel.getChildren().add(departureAirportLabel);
