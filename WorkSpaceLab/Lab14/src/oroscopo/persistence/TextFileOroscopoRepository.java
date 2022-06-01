@@ -48,8 +48,8 @@ public class TextFileOroscopoRepository implements OroscopoRepository {
 		String line = null;
 		ArrayList<Previsione> response = new ArrayList<Previsione>();
 		while ( (line = bufferedReader.readLine()) != null) {
-			if (line.isBlank()) break;
-			if (line.trim().toUpperCase().equals(FINE)) return response;
+			if (line.isBlank()) continue;
+			if (line.trim().toUpperCase().equals(FINE)) break;
 			StringTokenizer stringTokenizer = new StringTokenizer(line, SEPARATORS);
 			if (stringTokenizer.countTokens() != 2 && stringTokenizer.countTokens() != 3)
 				throw new BadFileFormatException("Errore di formattazione in una delle righe descrittive di una previsione del settore " + settore + ".");
