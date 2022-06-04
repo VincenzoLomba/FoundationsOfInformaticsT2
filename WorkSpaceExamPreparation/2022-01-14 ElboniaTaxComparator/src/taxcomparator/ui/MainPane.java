@@ -107,5 +107,4 @@ public class MainPane extends BorderPane {
 		imposta.setPrefColumnCount(30);
 		dettaglio.setPrefSize(50, 200);
 	}
-
 }
