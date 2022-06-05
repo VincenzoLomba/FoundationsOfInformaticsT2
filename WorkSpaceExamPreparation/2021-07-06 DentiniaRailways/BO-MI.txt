@@ -1,0 +1,32 @@
+216+176	Milano Centrale+
+212+397	Milano Lambrate+
+208+751	Milano Rogoredo+
+206+609	San Donato Milanese
+204+543	Borgolombardo
+202+610	San Giuliano Milanese
+197+912	Melegnano
+193+916	San Zenone al Lambro
+190+409	Tavazzano
+182+685	Lodi
+170+775	Secugnago
+163+832	Casalpusterlengo
+158+959	Codogno
+154+885	Santo Stefano Lodigiano
+146+823	Piacenza
+137+995	Pontenure
+131+864	Cadeo
+125+212	Fiorenzuola
+111+754	Fidenza
+102+150	Castelguelfo
+99+173	Ponte Taro per Medesano
+89+741	Parma+
+83+477	San Prospero Parmense
+78+878	Sant'Ilario d'Enza
+61+435	Reggio Emilia
+49+585	Rubiera
+45+700	Marzaglia
+36+932	Modena+
+25+008	Castelfranco Emilia
+17+130	Samoggia
+12+735	Anzola dell'Emilia
+0+000	Bologna Centrale+

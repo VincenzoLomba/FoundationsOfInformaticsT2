@@ -1,0 +1,114 @@
+0+000	Bologna Centrale+
+2+628	Bologna San Vitale
+6+545	San Lazzaro di Savena
+13+013	Ozzano dell'Emilia
+16+256	Varignana
+23+034	Castel San Pietro Terme
+34+056	Imola
+41+832	Castelbolognese-Riolo Terme
+49+062	Faenza
+64+773	Forlì
+69+510	Villa Selva
+82+624	Cesena
+89+632	Gambettola
+96+216	Savignano sul Rubicone
+101+273	Santarcangelo di Romagna
+103+253	Santa Giustina di Romagna
+106+969	RiminiFiera
+111+042	Rimini
+116+278	Rimini Miramare
+121+035	Riccione
+124+966	Misano Adriatico
+129+321	Cattolica-San Giovanni-Gabicce
+132+943	Gradara
+144+422	Pesaro
+156+885	Fano
+169+111	Marotta-Mondolfo
+178+158	Senigallia
+185+030	Marzocca
+190+562	Montemarciano
+195+299	Falconara Marittima
+198+307	Palombina
+200+557	Ancona Torrette
+203+996	Ancona
+209+500	Varano
+210+473	Ancona Stadio
+214+724	Camerano-Aspio
+219+186	Osimo-Castelfidardo
+227+498	Loreto
+231+809	Porto Recanati
+240+591	Potenza Picena-Montelupone
+246+701	Civitanova Marche-Montegranaro
+253+199	Porto Sant'Elpidio
+265+948	Torre di Palme
+272+533	Pedaso
+280+583	Cupra Marittima
+283+969	Grottammare
+288+489	San Benedetto del Tronto
+293+273	Porto d'Ascoli
+302+190	Alba Adriatica-Nereto-Controguerra
+305+978	Tortoreto Lido
+312+355	Giulianova
+321+660	Roseto degli Abruzzi
+326+266	Scerne di Pineto
+330+730	Pineto-Atri
+337+137	Silvi
+342+987	Montesilvano
+349+969	Pescara Centrale
+351+309	Pescara Porta Nuova
+352+527	Pescara Tribunale
+359+097	Francavilla al Mare
+364+358	Tollo-Canosa Sannita
+371+883	Ortona
+378+137	San Vito-Lanciano
+388+379	Fossacesia-Torino di Sangro
+398+908	Casalbordino-Pollutri
+404+972	Porto di Vasto
+416+405	Vasto-San Salvo
+419+267	San Salvo
+427+034	Montenero-Petacciato
+433+809	Coppella
+439+437	Termoli
+446+279	Campomarino
+450+550	Nuova Cliternia
+456+728	Chieuti-Serracapriola
+479+869	Poggio Imperiale
+484+081	Apricena
+497+579	San Severo
+511+961	Rignano Garganico
+526+027	Foggia
+536+309	Incoronata
+545+661	Ortanova
+560+292	Cerignola Campagna
+577+692	Trinitapoli-San Ferdinando di Puglia
+593+919	Barletta
+606+513	Trani
+614+534	Bisceglie
+623+875	Molfetta
+630+190	Giovinazzo
+637+074	Bari Santo Spirito
+639+055	Bari Palese Macchie
+644+650	Bari Zona Industriale
+648+616	Bari Centrale
+650+145	Marconi
+651+005	Bari Parco Sud
+652+544	Bari Torre Quetta
+660+069	Bari Torre a Mare
+667+771	Mola di Bari
+674+596	Cozze
+681+575	Polignano a Mare
+689+160	Monopoli
+702+989	Fasano
+710+146	Cisternino
+716+493	Fontevecchia
+722+894	Ostuni
+731+875	Carovigno
+740+097	Serranova
+747+836	San Vito dei Normanni
+752+836	Restinco
+759+539	Brindisi
+776+562	San Pietro Vernotico
+783+303	Squinzano
+787+504	Trepuzzi
+794+332	Surbo
+797+903	Lecce

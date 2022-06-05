@@ -1,0 +1,49 @@
+0+000	Milano Centrale+
+3+798	Milano Lambrate+
+9+907	Segrate
+12+310	Pioltello-Limito
+16+200	Vignate
+18+750	Melzo Scalo
+19+600	Melzo
+22+610	Pozzuolo Martesana
+24+585	Trecella
+27+152	Cassano d'Adda
+32+932	Treviglio Ovest
+33+143	Treviglio
+37+146	Vidalengo
+42+117	Morengo-Bariano
+46+052	Romano
+53+018	Calcio
+59+778	Chiari
+65+827	Rovato
+71+653	Ospitaletto-Travagliato
+80+471	Brescia Scalo
+82+842	Brescia+
+91+416	Rezzato
+99+950	Ponte San Marco-Calcinato
+106+388	Lonato
+110+738	Desenzano del Garda-Sirmione
+124+940	Peschiera del Garda
+129+663	Castelnuovo del Garda
+136+583	Sommacampagna-Sona
+140+563	Lugagnano	
+147+480	Verona Porta Nuova+
+150+857	Verona Porta Vescovo
+156+864	San Martino Buon Albergo
+163+225	Caldiero
+171+571	San Bonifacio
+177+305	Lonigo
+182+952	Montebello
+191+471	Altavilla-Tavernelle
+199+138	Vicenza
+207+191	Lerino
+214+068	Grisignano di Zocco
+219+928	Mestrino
+229+408	Padova+
+235+173	Busa di Vigonza
+240+790	Vigonza-Pianiga
+244+897	Dolo
+248+726	Mira-Mirano
+257+907	Venezia Mestre
+260+191	Venezia Porto Marghera
+266+341	Venezia Santa Lucia

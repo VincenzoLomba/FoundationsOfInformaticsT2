@@ -1,0 +1,20 @@
+114+951	Verona Porta Nuova+
+106+768	Verona Ca' di David
+102+164	Buttapietra
+97+813	Caselle
+94+175	Isola della Scala
+83+046	Nogara
+74+500	Tartaro
+70+500	Ostiglia
+65+932	Revere Scalo
+59+430	Poggio Rusco
+49+391	Mirandola
+42+504	San Felice sul Panaro
+37+382	Camposanto
+29+581	Crevalcore
+24+667	Amola
+20+635	San Giovanni in Persiceto
+16+619	San Giacomo di Martignone
+13+191	Osteria Nuova
+7+985	Calderara-Bargellino
+0+000	Bologna Centrale+

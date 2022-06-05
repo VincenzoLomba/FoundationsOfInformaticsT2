@@ -1,0 +1,24 @@
+122+921	Padova+
+120+170	Padova Campo Marte
+113+254	Abano
+109+927	Terme Euganee-Abano-Montegrotto
+105+700	Battaglia Terme
+100+119	Monselice
+94+226	Sant'Elena-Este
+85+908	Stanghella
+79+172	Rovigo
+70+872	Arquà
+65+595	Polesella
+58+722	Canaro
+53+654	Occhiobello
+50+293	Pontelagoscuro
+46+830	Ferrara
+39+653	Coronella
+33+879	Poggio Renatico
+29+191	Galliera
+23+879	San Pietro in Casale
+17+768	San Giorgio di Piano
+11+830	Funo Centergross
+9+947	Castelmaggiore
+6+990	Bologna Corticella
+0+000	Bologna Centrale+

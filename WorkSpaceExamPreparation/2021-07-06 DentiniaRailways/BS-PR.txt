@@ -1,0 +1,18 @@
+39+365	Brescia+
+85+481	San Zeno-Folzano
+80+414	Montirone
+74+702	Ghedi
+69+015	Viadana Bresciana
+65+681	Calvisano
+62+042	Visano
+57+769	Remedello Sopra
+55+323	Remedello Sotto
+51+055	Asola
+42+829	Canneto sull'Oglio
+39+738	Piadena
+33+578	San Giovanni in Croce
+23+625	Casalmaggiore
+19+681	Mezzani-Rondani
+15+136	Colorno
+10+125	Torrile-San Polo
+0+000	Parma+

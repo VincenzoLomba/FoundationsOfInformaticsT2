@@ -1,0 +1,18 @@
+97+858	Verona Porta Nuova+
+90+400	Dossobuono
+83+396	Villafranca di Verona
+78+195	Mozzecane
+71+783	Roverbella
+64+492	Sant'Antonio Mantovano
+61+082	Mantova
+58+588	Borgochiesanuova
+56+546	Levata
+49+888	Romanore
+42+153	Suzzara
+39+125	Palidano
+34+385	Gonzaga-Reggiolo
+31+065	Villanova di Reggiolo
+27+049	Rolo-Novi-Fabbrico
+15+465	Carpi
+5+140	Quattro Ville
+0+000	Modena+
