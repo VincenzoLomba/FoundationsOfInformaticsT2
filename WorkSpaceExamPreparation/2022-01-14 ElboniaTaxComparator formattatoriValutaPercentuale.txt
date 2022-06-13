@@ -1,0 +1,6 @@
+
+percentageFormatter = NumberFormat.getPercentInstance(Locale.ITALY);
+currencyFormatter = new DecimalFormat("¤ #,##0.##");
+
+percentageFormatter.format(aliquota)
+currencyFormatter.format(da)

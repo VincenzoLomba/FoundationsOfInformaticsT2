@@ -1,0 +1,11 @@
+
+LocalDateTime.now().format(
+	DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL, FormatStyle.MEDIUM).withLocale(Locale.ITALY)
+);
+// <-- Esempio comepleto LocalDateTime (possibile anche solo Date o solo Time).
+
+NumberFormat formatter = NumberFormat.getPercentInstance(Locale.ITALY);
+// <-- Vuole indicazione numerica come intero da 0 a 1.
+
+lvotes = NumberFormat.getInstance(Locale.ITALY).parse(votes).longValue();
+// <-- Un semplice parser numerico con locale italiano
