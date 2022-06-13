@@ -1,0 +1,286 @@
+Insieme per il salume nostrano,54,F
+Pizza è progresso,89,F
+Movimento vaniglia democratica,38,F
+Insieme per il salume nostrano,62,F
+Vegetarianesimo domani,87,F
+Vegetarianesimo domani,71,M
+Movimento vaniglia democratica,87,F
+Pizza è progresso,23,M
+Insieme per il salume nostrano,21,F
+Movimento vaniglia democratica,62,F
+Pizza è progresso,75,F
+Unità nel formaggio,37,F
+Insieme per il salume nostrano,85,M
+Movimento vaniglia democratica,98,F
+Unità nel formaggio,81,F
+Movimento vaniglia democratica,73,M
+Pizza è progresso,106,F
+Partito del cioccolato fondente,56,F
+Movimento vaniglia democratica,85,F
+Insieme per il salume nostrano,96,M
+Movimento vaniglia democratica,23,M
+Partito del cioccolato fondente,32,M
+Vegetarianesimo domani,62,F
+Partito del cioccolato fondente,98,M
+Unità nel formaggio,39,F
+Pizza è progresso,86,F
+Partito del cioccolato fondente,77,M
+Insieme per il salume nostrano,53,F
+Pizza è progresso,83,M
+Movimento vaniglia democratica,63,F
+Unità nel formaggio,33,M
+Partito del cioccolato fondente,60,F
+Pizza è progresso,55,F
+Pizza è progresso,65,M
+Vegetarianesimo domani,99,F
+Insieme per il salume nostrano,73,M
+Vegetarianesimo domani,47,M
+Pizza è progresso,25,F
+Pizza è progresso,93,M
+Unità nel formaggio,74,M
+Insieme per il salume nostrano,95,F
+Unità nel formaggio,27,M
+Vegetarianesimo domani,18,M
+Unità nel formaggio,71,M
+Pizza è progresso,82,M
+Unità nel formaggio,61,F
+Insieme per il salume nostrano,20,M
+Unità nel formaggio,77,F
+Insieme per il salume nostrano,47,F
+Unità nel formaggio,99,M
+Pizza è progresso,98,M
+Movimento vaniglia democratica,93,F
+Insieme per il salume nostrano,27,M
+Unità nel formaggio,94,M
+Vegetarianesimo domani,41,M
+Partito del cioccolato fondente,67,M
+Insieme per il salume nostrano,77,M
+Movimento vaniglia democratica,51,F
+Pizza è progresso,77,F
+Partito del cioccolato fondente,82,F
+Pizza è progresso,81,M
+Movimento vaniglia democratica,49,M
+Partito del cioccolato fondente,102,M
+Unità nel formaggio,77,F
+Vegetarianesimo domani,32,F
+Insieme per il salume nostrano,60,M
+Insieme per il salume nostrano,79,M
+Pizza è progresso,38,F
+Insieme per il salume nostrano,34,F
+Vegetarianesimo domani,27,F
+Pizza è progresso,47,M
+Insieme per il salume nostrano,39,M
+Unità nel formaggio,32,M
+Pizza è progresso,63,F
+Vegetarianesimo domani,61,M
+Unità nel formaggio,100,M
+Unità nel formaggio,32,F
+Movimento vaniglia democratica,89,M
+Insieme per il salume nostrano,65,M
+Unità nel formaggio,48,F
+Pizza è progresso,90,F
+Unità nel formaggio,42,M
+Insieme per il salume nostrano,20,M
+Unità nel formaggio,49,M
+Insieme per il salume nostrano,71,F
+Pizza è progresso,20,F
+Insieme per il salume nostrano,66,F
+Movimento vaniglia democratica,87,M
+Movimento vaniglia democratica,59,M
+Partito del cioccolato fondente,29,M
+Insieme per il salume nostrano,45,M
+Movimento vaniglia democratica,22,F
+Partito del cioccolato fondente,66,F
+Movimento vaniglia democratica,83,F
+Pizza è progresso,29,M
+Partito del cioccolato fondente,54,M
+Movimento vaniglia democratica,35,M
+Movimento vaniglia democratica,96,F
+Insieme per il salume nostrano,80,M
+Movimento vaniglia democratica,105,M
+Movimento vaniglia democratica,45,F
+Insieme per il salume nostrano,98,F
+Unità nel formaggio,48,F
+Partito del cioccolato fondente,47,M
+Pizza è progresso,72,M
+Movimento vaniglia democratica,96,F
+Vegetarianesimo domani,28,F
+Partito del cioccolato fondente,24,M
+Unità nel formaggio,96,F
+Pizza è progresso,93,F
+Pizza è progresso,24,M
+Vegetarianesimo domani,107,F
+Vegetarianesimo domani,91,F
+Insieme per il salume nostrano,83,M
+Vegetarianesimo domani,21,F
+Movimento vaniglia democratica,54,F
+Movimento vaniglia democratica,52,M
+Movimento vaniglia democratica,85,F
+Movimento vaniglia democratica,56,M
+Pizza è progresso,40,M
+Partito del cioccolato fondente,59,M
+Pizza è progresso,20,M
+Vegetarianesimo domani,67,M
+Insieme per il salume nostrano,67,M
+Unità nel formaggio,89,F
+Partito del cioccolato fondente,100,F
+Unità nel formaggio,57,M
+Unità nel formaggio,84,M
+Insieme per il salume nostrano,46,F
+Pizza è progresso,100,M
+Unità nel formaggio,92,F
+Unità nel formaggio,37,F
+Insieme per il salume nostrano,103,F
+Movimento vaniglia democratica,18,F
+Movimento vaniglia democratica,91,F
+Movimento vaniglia democratica,69,M
+Partito del cioccolato fondente,42,M
+Insieme per il salume nostrano,29,F
+Movimento vaniglia democratica,30,M
+Movimento vaniglia democratica,62,F
+Vegetarianesimo domani,75,M
+Unità nel formaggio,91,M
+Insieme per il salume nostrano,66,M
+Vegetarianesimo domani,72,M
+Unità nel formaggio,77,M
+Movimento vaniglia democratica,68,M
+Vegetarianesimo domani,41,F
+Unità nel formaggio,94,F
+Vegetarianesimo domani,52,F
+Pizza è progresso,105,M
+Vegetarianesimo domani,34,M
+Insieme per il salume nostrano,37,M
+Movimento vaniglia democratica,104,F
+Partito del cioccolato fondente,76,M
+Unità nel formaggio,37,M
+Vegetarianesimo domani,64,M
+Vegetarianesimo domani,42,M
+Vegetarianesimo domani,56,F
+Unità nel formaggio,30,F
+Insieme per il salume nostrano,78,M
+Vegetarianesimo domani,30,M
+Pizza è progresso,91,M
+Movimento vaniglia democratica,53,F
+Partito del cioccolato fondente,106,F
+Vegetarianesimo domani,35,M
+Pizza è progresso,92,F
+Partito del cioccolato fondente,85,M
+Partito del cioccolato fondente,94,M
+Insieme per il salume nostrano,41,F
+Insieme per il salume nostrano,68,F
+Insieme per il salume nostrano,27,F
+Insieme per il salume nostrano,24,F
+Pizza è progresso,74,M
+Unità nel formaggio,35,M
+Pizza è progresso,24,M
+Pizza è progresso,58,F
+Movimento vaniglia democratica,75,M
+Unità nel formaggio,21,M
+Movimento vaniglia democratica,54,F
+Partito del cioccolato fondente,106,M
+Movimento vaniglia democratica,42,F
+Pizza è progresso,81,M
+Unità nel formaggio,22,F
+Partito del cioccolato fondente,98,M
+Vegetarianesimo domani,54,M
+Unità nel formaggio,29,M
+Partito del cioccolato fondente,91,M
+Vegetarianesimo domani,77,F
+Partito del cioccolato fondente,50,F
+Movimento vaniglia democratica,59,M
+Insieme per il salume nostrano,73,M
+Movimento vaniglia democratica,29,M
+Vegetarianesimo domani,53,F
+Pizza è progresso,75,F
+Unità nel formaggio,39,F
+Vegetarianesimo domani,43,F
+Insieme per il salume nostrano,95,M
+Insieme per il salume nostrano,44,M
+Vegetarianesimo domani,36,M
+Movimento vaniglia democratica,32,M
+Unità nel formaggio,51,F
+Movimento vaniglia democratica,101,F
+Vegetarianesimo domani,75,M
+Partito del cioccolato fondente,41,M
+Unità nel formaggio,85,F
+Insieme per il salume nostrano,46,M
+Insieme per il salume nostrano,58,F
+Insieme per il salume nostrano,26,F
+Unità nel formaggio,93,F
+Unità nel formaggio,62,F
+Pizza è progresso,19,M
+Movimento vaniglia democratica,59,F
+Pizza è progresso,29,M
+Unità nel formaggio,58,M
+Insieme per il salume nostrano,78,M
+Partito del cioccolato fondente,35,F
+Unità nel formaggio,93,F
+Pizza è progresso,78,M
+Insieme per il salume nostrano,61,F
+Insieme per il salume nostrano,25,F
+Movimento vaniglia democratica,36,M
+Partito del cioccolato fondente,55,M
+Pizza è progresso,55,M
+Pizza è progresso,26,F
+Insieme per il salume nostrano,30,M
+Insieme per il salume nostrano,60,M
+Pizza è progresso,53,M
+Vegetarianesimo domani,100,F
+Vegetarianesimo domani,18,M
+Insieme per il salume nostrano,52,M
+Partito del cioccolato fondente,59,M
+Partito del cioccolato fondente,94,F
+Pizza è progresso,101,M
+Pizza è progresso,21,M
+Movimento vaniglia democratica,85,M
+Partito del cioccolato fondente,37,F
+Pizza è progresso,67,M
+Insieme per il salume nostrano,83,F
+Insieme per il salume nostrano,41,F
+Movimento vaniglia democratica,73,F
+Pizza è progresso,52,F
+Insieme per il salume nostrano,99,F
+Insieme per il salume nostrano,46,F
+Partito del cioccolato fondente,33,M
+Movimento vaniglia democratica,42,M
+Partito del cioccolato fondente,18,F
+Movimento vaniglia democratica,61,F
+Unità nel formaggio,29,M
+Insieme per il salume nostrano,95,F
+Insieme per il salume nostrano,33,F
+Unità nel formaggio,60,M
+Unità nel formaggio,88,F
+Insieme per il salume nostrano,19,F
+Movimento vaniglia democratica,84,M
+Partito del cioccolato fondente,98,F
+Vegetarianesimo domani,93,M
+Pizza è progresso,25,F
+Insieme per il salume nostrano,71,F
+Movimento vaniglia democratica,95,F
+Pizza è progresso,87,F
+Vegetarianesimo domani,18,M
+Pizza è progresso,30,F
+Insieme per il salume nostrano,81,F
+Vegetarianesimo domani,60,F
+Insieme per il salume nostrano,24,F
+Unità nel formaggio,54,F
+Pizza è progresso,55,M
+Insieme per il salume nostrano,53,M
+Partito del cioccolato fondente,73,F
+Vegetarianesimo domani,20,M
+Vegetarianesimo domani,86,M
+Movimento vaniglia democratica,66,M
+Insieme per il salume nostrano,50,M
+Unità nel formaggio,50,M
+Unità nel formaggio,87,M
+Movimento vaniglia democratica,101,M
+Partito del cioccolato fondente,78,M
+Insieme per il salume nostrano,64,M
+Partito del cioccolato fondente,38,M
+Unità nel formaggio,50,M
+Movimento vaniglia democratica,46,F
+Movimento vaniglia democratica,86,M
+Unità nel formaggio,64,F
+Partito del cioccolato fondente,37,F
+Insieme per il salume nostrano,88,M
+Vegetarianesimo domani,56,M
