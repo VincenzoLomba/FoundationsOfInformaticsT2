@@ -1,0 +1,59 @@
+StartContact
+Ilaria;Bertoletti
+Phone;Cell.;311133113
+Phone;Home;0543123345
+EMail;@Job;ilaria.bertoletti2@unibo.it
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+EndContact
+StartContact
+Enrico;Denti
+Phone;Cell.;323233223
+EMail;@Job;enrico.denti@unibo.it
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+EndContact
+StartContact
+Gabriele;Zannoni
+Phone;Cell.;333122334
+Phone;Home;0544881122
+EMail;@Job;gabriele.zannoni@unibo.it
+EMail;@Home;geniodelmale@gmail.com
+Address;Home;Via Sentierone;14;48011;Alfonsine;Italia
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+EndContact
+StartContact
+Massimo;Albertin
+Phone;Cell.;333322111
+Phone;Home;051123123
+EMail;@Job;massimo.albertin@unibo.it
+EMail;@Home;bertoforspam@gmail.com
+;Address;Home;Via Del Pero;10;001122;Cattolica;Italia
+EndContact
+StartContact
+Ambra;Molesini
+Phone;Cell.;343344334
+Phone;Home;0515445544
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Giardini Magherita Centro;7;40100;Bologna;Italia
+EndContact
+StartContact
+Roberta;Calegari
+Phone;Cell.;355667788
+Phone;Home;051552598
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Giardini del Pesco;7;40100;Bologna;Italia
+EndContact
+StartContact
+Lorenzo;Rosa
+Phone;Cell.;366778895
+Phone;Home;051669878
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Vicolo del Melo;77;40100;Bologna;Italia
+EndContact
+StartContact
+Matteo;Catiglio'
+Phone;Cell.;377885436
+Phone;Home;051889914
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Vicolo del Tiglio;88;40100;Bologna;Italia
+EndContact

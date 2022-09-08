@@ -3,11 +3,13 @@ package mediaesami.model;
 import java.util.Objects;
 
 public class AttivitaFormativa {
-	private String nome;
+	
+	private String nome; /* Denominazione */
 	private double cfu;
-	private long id;
+	private long id; /* Codice */
 	
 	public AttivitaFormativa(long id, String nome, double cfu) {
+		
 		if(id<1) throw new IllegalArgumentException("id illegale in AF:" + id);
 		if(nome==null || nome.equals("")) throw new IllegalArgumentException("nome vuoto o nullo in AF:" + nome);
 		if(cfu<1.0) throw new IllegalArgumentException("cfu non valido in AF: "+ cfu);

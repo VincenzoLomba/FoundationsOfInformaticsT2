@@ -1,0 +1,52 @@
+StartContact
+Robby;Calegax
+Phone;Cell.;355667788
+Phone;Home;051552598
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Giardini del Pesco in fiore;7;40100;Bologna;Italia
+EndContact
+StartContact
+Peter;Flak
+Phone;Cell.;333322111
+Phone;Home;051123123
+EMail;@Job;piero.flacco@unibo.it
+EMail;@Home;peterforspam@gmail.com
+Address;Home;Via Del Pero;10;001122;Pesaro;Italia
+EndContact
+StartContact
+Matt;Casts
+Phone;Cell.;377885436
+Phone;Home;051889914
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Vicolo del Tiglio;88;40100;Bologna;Italia
+EndContact
+StartContact
+Enrique;Dent
+Phone;Cell.;323233223
+EMail;@Job;enrico.denti@unibo.it
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Job;Viale dell'Imperatore;100;40121;ReggioEmilia;Italia
+EndContact
+StartContact
+Lorenz;Rose
+Phone;Cell.;366778895
+Phone;Home;051669878
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Vicolo del Caco;77;40100;Bologna;Italia
+EndContact
+StartContact
+Gabriel;Zanonix
+Phone;Cell.;333122334
+Phone;Home;0544881122
+EMail;@Job;gabriele.zannoni@unibo.it
+EMail;@Home;geniodelmale@gmail.com
+Address;Home;Via Sentierone;14;48011;Alfonsine;Italia
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+EndContact
+StartContact
+Amber;Molesque
+Phone;Cell.;343344334
+Phone;Home;0515445544
+Address;Job;Viale del Risorgimento;2;40100;Bologna;Italia
+Address;Home;Giardini Magherita Violetta;99;40100;Bologna;Italia
+EndContact

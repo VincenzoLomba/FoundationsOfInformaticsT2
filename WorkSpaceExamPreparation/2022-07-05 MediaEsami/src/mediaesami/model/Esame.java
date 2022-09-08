@@ -6,11 +6,13 @@ import java.util.Locale;
 import java.util.Objects;
 
 public class Esame {
+	
 	private AttivitaFormativa af;
 	private LocalDate date;
 	private Voto voto;
 	
 	public Esame(AttivitaFormativa af, LocalDate date, Voto voto) {
+		
 		if(af==null) throw new IllegalArgumentException("Attività formativa nulla in esame" + af);
 		if(date==null) throw new IllegalArgumentException("Data nulla in esame" + date);
 		if(date.isAfter(LocalDate.now())) throw new IllegalArgumentException("Data nel futuro inammissibile" + date);

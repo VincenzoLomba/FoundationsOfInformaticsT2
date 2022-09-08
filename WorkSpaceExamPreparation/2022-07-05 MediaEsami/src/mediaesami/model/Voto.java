@@ -3,6 +3,7 @@ package mediaesami.model;
 import java.util.OptionalInt;
 
 public enum Voto {
+	
 	RESPINTO, RITIRATO, IDONEO, // devono essere all'inizio per facilitare gli ordinamenti degli esami con tentativi multipli, così che quello col voto sia l'ultimo
 	DICIOTTO(18), DICIANNOVE(19), VENTI(20), VENTUNO(21), VENTIDUE(22), VENTITRE(23), VENTIQUATTRO(24),
 	VENTICINQUE(25), VENTISEI(26), VENTISETTE(27), VENTOTTO(28), VENTINOVE(29), TRENTA(30),
